@@ -1,0 +1,222 @@
+.home-logo{
+
+  height: 500px;
+  width: 100%;
+  z-index: 4;
+  position: absolute;
+  bottom: 100px;
+  left: 0px;
+}
+.home-easy{
+  height: 500px;
+  width: 100%;
+  z-index: 3;
+  position: absolute;
+  left: 0px;
+  bottom: 100px;
+}
+.home-sports{
+  height: 500px;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  left: 0px;
+  bottom: 100px;
+}
+.home-description{
+  height: 500px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  bottom: 100px;
+
+}
+.home-main{
+
+}
+.logo-full{
+  margin: 0 auto;
+  position: relative;
+  height: 800px;
+  width: 500px;
+  text-align: center;
+  bottom: 100px;
+  left: auto;
+  box-shadow: 0 0 18px #000000;
+  background-color: rgba(245, 245, 246, 0.2);
+}
+
+.section-inside-box{
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#s2-pic-1{
+  height: 80%;
+  width: 80%;
+  z-index: 1;
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+  border: 10px solid #ffffff;
+  box-shadow: 0 0 18px #000000;
+  overflow: hidden;
+  display: none;
+
+}
+
+#s2-pic-2{
+  height: 400px;
+  width: auto;
+  z-index: 2;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  border: 10px solid #c1c1c1;
+  box-shadow: 0 0 18px #000000;
+  display: none;
+
+}
+
+.sec-description{
+  text-align: left;
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  right: 35%;
+  bottom: 120px;
+  width: 300px;
+  z-index: 5;
+}
+
+#s3-pic-1{
+  height: 60%;
+  width: 80%;
+  z-index: 1;
+  position: absolute;
+  left: 100px;
+  bottom: 200px;
+  border: 10px solid #ffffff;
+  box-shadow: 0 0 18px #000000;
+  overflow: hidden;
+  text-align: right;
+  display: none;
+
+}
+
+#s3-pic-2{
+  height: 40%;
+  width: auto;
+  z-index: 2;
+  position: absolute;
+  right: 100px;
+  top: 120px;
+  border: 10px solid #ffffff;
+  box-shadow: 0 0 18px #000000;
+  display: none;
+
+}
+
+.thr-description{
+  text-align: left;
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  left:120px;
+  bottom: 130px;
+  width: 300px;
+  z-index: 5;
+}
+
+#s4-pic-1{
+  height: 60%;
+  width: 80%;
+  z-index: 1;
+  position: absolute;
+  left: 100px;
+  bottom: 200px;
+  border: 10px solid #ffffff;
+  box-shadow: 0 0 18px #000000;
+  overflow: hidden;
+  text-align: right;
+  display: none;
+
+}
+
+#s4-pic-2{
+  height: 40%;
+  width: auto;
+  z-index: 2;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  border: 10px solid #ffffff;
+  box-shadow: 0 0 18px #000000;
+  display: none;
+}
+
+.four-description{
+  text-align: left;
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  right:40%;
+  bottom: 130px;
+  width: 300px;
+  z-index: 5;
+}
+
+.home-button{
+  position: absolute;
+  bottom: 100px;
+  z-index: 5;
+  width: 100%;
+  text-align: center;
+}
+.ex-button{
+  position: absolute;
+  right: 100px;
+  top:20px;
+  z-index: 5;
+  width: 100%;
+  text-align: right;
+}
+
+.whole-back{
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+.login-box{
+  margin: 0 auto;
+  position: relative;
+  height: 800px;
+  width: 500px;
+  text-align: center;
+  top: 50px;
+  box-shadow: 0 0 18px #000000;
+  background-color: rgba(245, 245, 246, 0.55);
+
+}
+.login-form{
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.login-text{
+  position: absolute;
+  bottom: 200px;
+  width: 400px;
+  left: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Droid Sans', sans-serif;
+}

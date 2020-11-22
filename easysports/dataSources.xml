@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="easysports@easysports.ch164ws6d5sd.us-east-2.rds.amazonaws.com" uuid="fb81eae1-0752-4bcd-9068-c93040053500">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://easysports.ch164ws6d5sd.us-east-2.rds.amazonaws.com:3306/easysports</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,113 @@
+drop table if exists Booking;
+create table Booking
+(
+    id           int         not null
+        primary key,
+    userId       int         not null,
+    playgroundId int         not null,
+    courtId      int         not null,
+    timePeriodId int         not null,
+    status       varchar(50) null,
+    createTime   datetime    null
+);
+
+drop table if exists Comment;
+create table Comment
+(
+    id           int          not null
+        primary key,
+    description  varchar(200) null,
+    userId       int          not null,
+    playgroundId int          not null,
+    createTime   datetime     null
+);
+
+drop table if exists CommentLike;
+create table CommentLike
+(
+    id         int      not null
+        primary key,
+    userId     int      not null,
+    commentId  int      not null,
+    createTime datetime null
+);
+
+drop table if exists Favourite;
+create table Favourite
+(
+    id           int      not null
+        primary key,
+    userId       int      not null,
+    playgroundId int      not null,
+    createTime   datetime null
+);
+
+drop table if exists Playground;
+create table Playground
+(
+    id              int          not null
+        primary key,
+    name            varchar(50)  not null,
+    address         varchar(100) not null,
+    ratingId        int          null,
+    bookingRequired boolean   not null,
+    courtId         int          not null,
+    endTime         datetime     null
+);
+
+drop table if exists Rating;
+create table Rating
+(
+    id           int      not null
+        primary key,
+    value        float    null,
+    userId       int      not null,
+    playgroundId int      not null,
+    createTime   datetime null
+);
+
+drop table if exists TimePeriod;
+create table TimePeriod
+(
+    id          int        not null
+        primary key,
+    courtId     int        not null,
+    bookingId   int        not null,
+    isAvailable boolean null,
+    startTime   datetime   null,
+    endTime     datetime   null
+);
+
+drop table if exists User;
+create table User
+(
+    id          int          not null
+        primary key,
+    userName    varchar(50)  null,
+    email       varchar(50)  null,
+    address     varchar(100) null,
+    password    varchar(50)  null,
+    type        varchar(20)  null,
+    description varchar(500) null,
+    createTime  datetime     null
+);
+
+drop table if exists VisitRecord;
+create table VisitRecord
+(
+    id           int      not null
+        primary key,
+    userId       int      not null,
+    playgroundId int      not null,
+    createTime   datetime null
+);
+
+drop table if exists court;
+create table court
+(
+    id             int   not null
+        primary key,
+    playgroundId   int   not null,
+    timePeriodId   int   null,
+    pricePerPeriod float null
+);

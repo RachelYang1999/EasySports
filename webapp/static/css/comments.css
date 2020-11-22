@@ -1,0 +1,10 @@
+.mainPage{
+    background: aqua;
+    width: 80%;
+    position: relative;
+    float: right;
+}
+
+.titleWords{
+    font-size: 40px;
+}

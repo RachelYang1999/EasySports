@@ -1,0 +1,20 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignore .idea directory
+.idea/
+# Ignore target directory
+*/target/**
+# Ignore *.iml
+/*.iml
+# Ignore dsFiles
+*/.DS_Store
+# Ignore dsFiles easysports
+*/easysports/DS_Store
+
+.DS_Store
