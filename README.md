@@ -1,9 +1,9 @@
 # EasySports
 ## Introduction
-This web application EasySports is a platform for searching playgrounds. The web platform combines all kinds of playgrounds and stadiums so that users can use this platform to quickly find and book a suitable playground.
+This web application EasySports is a platform for searching playgrounds based on Spring framework. The web platform combines all kinds of playgrounds and stadiums so that users can use this platform to quickly find and book a suitable playground.
 ## Technologies
 * The whole web application is developed with the Spring framework and the corresponding Model-View-Controller (MVC) architecture. 
-* For the front end development, HTML, JavaScript, and CSS are used to construct the user interface. 
+* For the front end development, HTML, JavaScript, CSS, Bootstrap are used to construct the user interface. 
 * In terms of the back end, Java is used for developing the back end business logic and interaction logic between the back end with the front end and the database, and MySQL is used to store data for this web application.
 ## Configuration Instructions 
 Requirements:  
@@ -14,7 +14,7 @@ Requirements:
 
 
 ## Execusion Instructions:
-1. Clone this repostory: `git clone https://github.sydney.edu.au/yshi3730/ELEC5619_EasySports.git`  
+1. Clone this repostory.  
 2. Open IntelliJ IDEA.   
 3. Select "Open or Import".   
 4. Select the downloaded folder.  
@@ -29,8 +29,8 @@ Requirements:
 * **Important note: Connection to the local database is not necessary because the application uses Amazon RDS for data storage.** 
 
 ## User Guide  
-1. Please register or login bofore accessing the functionalities of the application using the user name: n@n.com and the password: 1.  
-2. Due to the internet latency between the database and the client application, as well as we are using a free-tier Amazon database, therefore there will be some delay for some of the  operations, please wait patiently for the result to appear.    
+1. Please register or login bofore accessing the functionalities of the application.  
+2. Due to the internet latency between the database and the client application, as well as we are using a free-tier Amazon database, therefore there will be some delay for some of the operations, please wait patiently for the result to appear.    
 3. When choosing the preferred days for the playground, please select 10/12/2020 or 20/1/2021.  
 
 ## Sources  
