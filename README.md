@@ -1,6 +1,6 @@
-# ELEC5619_EasySports
+# EasySports
 ## Introduction
-Our web application EasySports is a platform for searching playgrounds. The web platform combines all kinds of playgrounds and stadiums so that users can use this platform to quickly find and book a suitable playground.
+This web application EasySports is a platform for searching playgrounds. The web platform combines all kinds of playgrounds and stadiums so that users can use this platform to quickly find and book a suitable playground.
 ## Technologies
 * The whole web application is developed with the Spring framework and the corresponding Model-View-Controller (MVC) architecture. 
 * For the front end development, HTML, JavaScript, and CSS are used to construct the user interface. 
@@ -32,15 +32,6 @@ Requirements:
 1. Please register or login bofore accessing the functionalities of the application using the user name: n@n.com and the password: 1.  
 2. Due to the internet latency between the database and the client application, as well as we are using a free-tier Amazon database, therefore there will be some delay for some of the  operations, please wait patiently for the result to appear.    
 3. When choosing the preferred days for the playground, please select 10/12/2020 or 20/1/2021.  
-
-
-## Contributors
-* Dongyan Wang 450353697
-* Nicole Shi 470508992
-* Rachel Yang 480348867
-* Yi Yuan 480546119
-* Alan Kang 490582066
-* Yixuan Wang 500175303
 
 ## Sources  
 ### Images used in the project are retrieved from:  
